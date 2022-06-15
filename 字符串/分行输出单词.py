@@ -1,3 +1,4 @@
+# 未通过
 str = input()
 ls = str.split()
 n = len(ls)

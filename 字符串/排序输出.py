@@ -1,6 +1,3 @@
-from operator import le
-
-
 ls = list(map(int, input().split()))
 ls.sort() # 原地排序 无返回值
 for i in range(len(ls)):
