@@ -1,0 +1,5 @@
+n = input()
+t = n.split(" ")
+print("姓名：" + t[1])
+print("班级：" + t[2])
+print("出生：" + str(t[4])[0:5])

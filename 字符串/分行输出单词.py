@@ -1,5 +1,4 @@
 str = input()
-n = str[-1]
 ls = str.split()
 n = len(ls)
 print(n)

@@ -1,0 +1,8 @@
+a = input()
+b = input()
+print(a + b)
+print(a * 3)
+print(b[2] + " " + b[-1])
+print(a[1:4])
+print(str(len(a)) + ',' + str(len(b)))
+print(str(min(a)) + ' ' + str(max(b)))
