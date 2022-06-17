@@ -1,11 +1,9 @@
-# 未通过
-str = input()
-ls = str.split()
-n = len(ls)
-print(n)
-for i in range(n):
-    c = ls[i]
-    if not c.isalpha():
-        print(c[0:-1])
-    else:
-        print(c)
+import string
+s = input()
+for i in string.punctuation:
+    if i in string.punctuation:
+        s = s.replace(i,' ')
+ls = s.split()
+print(len(ls))
+for i in ls:
+    print(i)
