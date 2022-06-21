@@ -1,0 +1,1 @@
+print(int("B") - int("A"))
