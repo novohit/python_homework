@@ -18,6 +18,7 @@ elif n == 6:
 
 '''
 
+'''
 import math
 n = int(input())
 
@@ -44,3 +45,4 @@ def printAns(i, ls):
     print('+'.join(map(str,ls)))
 
 find(n)
+'''
